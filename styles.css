@@ -25,3 +25,84 @@ body {
     width: 980px;
     margin: 20px auto;
 }
+
+.content > div{
+    display: inline-block;
+}
+
+.left-content {
+    width: 580px;
+    padding-right: 32px;
+    box-sizing: border-box;
+}
+.logo img {
+    height: 150px;
+    margin: -30px;
+}
+
+.quote {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.card {
+    background-color: white;
+    width: 396px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px grey;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.input-container > input[type=text],
+.input-container > input[type=password]{
+    width: 100%;
+    padding: 14px 16px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.input-container > input[type=text]:focus,
+.input-container > input[type=password]:focus{
+    border: 1px solid #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.login-btn{
+    background: #1877f2;
+    color: white;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    box-sizing: border-box;
+    padding: 14px 16px;
+    margin: 10px 0;
+}
+.forgot-password{
+    text-align: center;
+}
+
+.forgot-password > a{
+    font-weight: 600;
+    font-size: 14px;
+    color: #1877f2;
+    display: inline-block;
+    margin: 20px 0;
+    text-decoration: none;
+}
+
+.forgot-password > a:hover{
+    text-decoration: underline;
+}
+
+.divider{
+    width: 100%;
+    height: 1px;
+    background-color: #d2d2d2;
+}
