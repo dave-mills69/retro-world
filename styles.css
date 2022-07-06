@@ -3,141 +3,25 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 
 body {
-    background-color: #ECE6C2;
-    --retro-color: #73BDA8;
-    --retro-background: #6F5643;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background-color: white;
+    --retro-color: #AD6A78;
+    --retro-background: #DEE392;
 }
 
-/* sidebar begins  */
-
-
-.sidebarOption {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-.sidebarOption .material-symbols-outlined,
-.logo {
-    padding: 20px;
-}
-
-.sidebarOption h2 {
-    font-size: 20px;
-    margin-right: 20px;
-    font-weight: 900;
-}
-
-.sidebarOption:hover {
-    background-color: var(--retro-background);
-    border-radius: 30px;
-    color: var(--retro-color);
-    transition: 100 100ms ease-out;
-}
-
-.sidebarOption.active {
-    color: var(--retro-color);
-}
-
-.sidebarPost {
-    width: 100%;
-    background-color: var(--retro-color);
-    border: none;
-    font-weight: 1000;
-    color: white;
-    border-radius: 30px;
-    height: 50px;
-    margin-top: 20px;
-}
-
-body {
-    display: flex;
-    height: 100vh;
-    max-width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 10px;
-}
-
-.sidebar {
-    border-right: 3px solid #f7f7f7;
-    flex: 0.2;
-    min-width: 250px;
-    margin-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.logo {
-    max-width: 200px;
-    max-height: 200px;;
-}
-
-/* sidebar ends */
-
-/* Feed Box Begins */
-
-.feed {
-    flex: 0.5;
-    border-right: 3px solid #f7f7f7;
-    min-width: fit-content;
-    overflow-y: scroll;
-}
-
-.feedHeader {
-    position: sticky;
-    top: 0;
-    background-color: #ECE6C2;
-    z-index: 100;
-    border: 1px solid #f7f7f7;
-    padding: 15px 20px;
-}
-
-.feedHeader h2{
-    font-size: 20px;
-    font-weight: 800;
-}
-
-.feed::-webkit-scrollbar {
-    display: none;
-}
-
-.feed{
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
-.postBoxInput img{
-    border-radius: 50%;
-    height: 60px;
-}
-
-.postBox {
-    padding-bottom: 10px;
-    border-bottom: 8px solid #ECE6C2;
-    padding-right: 10px;
-}
-
-.postBox form {
-    display: flex;
-    flex-direction: column;
+.container {
+    background-color: #DEE392;
+    padding-top: 72px;
+    padding-bottom: 112px;
 
 }
 
-.postBoxInput {
-    display: flex;
-    padding: 20px;
-}
-
-.postBoxInput input {
-    flex: 1;
-    margin-left: 20px;
-    font-size: 20px;
-    border: none;
-    outline: none;
+.content {
+    width: 980px;
+    margin: 20px auto;
 }
