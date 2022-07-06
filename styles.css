@@ -13,6 +13,9 @@ body {
     --retro-background: #6F5643;
 }
 
+/* sidebar begins  */
+
+
 .sidebarOption {
     display: flex;
     align-items: center;
@@ -62,7 +65,7 @@ body {
 }
 
 .sidebar {
-    border-right: 1px solid var(--retro-background);
+    border-right: 3px solid #f7f7f7;
     flex: 0.2;
     min-width: 250px;
     margin-top: 20px;
@@ -71,6 +74,70 @@ body {
 }
 
 .logo {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 200px;
+    max-height: 200px;;
+}
+
+/* sidebar ends */
+
+/* Feed Box Begins */
+
+.feed {
+    flex: 0.5;
+    border-right: 3px solid #f7f7f7;
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+
+.feedHeader {
+    position: sticky;
+    top: 0;
+    background-color: #ECE6C2;
+    z-index: 100;
+    border: 1px solid #f7f7f7;
+    padding: 15px 20px;
+}
+
+.feedHeader h2{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.feed::-webkit-scrollbar {
+    display: none;
+}
+
+.feed{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.postBoxInput img{
+    border-radius: 50%;
+    height: 60px;
+}
+
+.postBox {
+    padding-bottom: 10px;
+    border-bottom: 8px solid #ECE6C2;
+    padding-right: 10px;
+}
+
+.postBox form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.postBoxInput {
+    display: flex;
+    padding: 20px;
+}
+
+.postBoxInput input {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
 }
